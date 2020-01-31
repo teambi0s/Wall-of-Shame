@@ -103,7 +103,7 @@ shoot off that bug report:
 * Make sure the path of the evilportal logs is correctly defined in portals/MyPortal.PHP
 
 
-If all else fails, [file that bug report][github:new-issue]! Please include the
+If all else fails, [file that bug report][github:new-issue] Please include the
 behavior you've observed, the behavior you expected, and any error messages.
 
 It's a great help if you included a backtrace with errors.
