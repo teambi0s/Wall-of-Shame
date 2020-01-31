@@ -1,5 +1,5 @@
 paramiko==2.6.0
-scp==0.13.2
+scp
 requests==2.22.0
 Flask==1.1.1
 dpkt
