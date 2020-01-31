@@ -12,7 +12,7 @@
 ---
 
 
-# What is Wall of Shame
+# What is Wall of Shame?
 Most of the common web technologies used in the world are still using clear text authentication, Wall of Shame is an implementation to illustrate why this is such a bad idea. Wall of Shame is an OS independent tool that's written in python. Wall of Shame collects the user credentials, sensitive device information from unsecure devices around by creating multiple access points based on the device saved network broadcasts. Once a device connects to the access point created by the Hak5 device, one can get tricked by the portals with spoofed DNS. Further, this tool analyses the traffic of the connected device dynamically for gathering plain text authenticated credentials.
 
 
