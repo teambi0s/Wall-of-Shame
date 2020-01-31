@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title>Sheeps</title>
+<meta name="description" content="Wall">
+<meta name="keywords" content="Wall of Sheep Frontend">
+<meta http-equiv="refresh" content="5" />
+<link ... href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+  <div id="stars3"></div>
+  <div id="stars2"></div>
+  <div id="stars1"></div>
+  <div id="title">
+<img src="/static/images/font.png">  
+<div>
+
+
+<TABLE cellpadding="2" style="border: 2px solid #ffffff; border-collapse: collapse;width: 75%;" border="1" align=center>
+ <TR>
+  <TH>Username/Email</TD>
+  <TH>Password</TD>
+  <TH>Domain</TD>
+ </TR>
+ {% for i in clientcreds %}
+ <TR> 
+  <TD>{{i[1]}}</TD>
+  <TD>{{i[2]}}</TD>
+  <TD>{{i[3]}}</TD>
+ </TR>
+ {% endfor %}
+</TABLE>
+
+<p></p>
+
+<TABLE cellpadding="2" style="border: 2px solid #ffffff; border-collapse: collapsei;width: 90%;" border="1" align=center>
+ <TR>
+  <TH>Host Name</TD>
+  <TH>Mac Address</TD>
+  <TH>IP Address</TD>
+  <TH>SSID</TD>
+ </TR>
+ {% for i in clientdata %}
+ <TR> 
+  <TD>{{i[1]}}</TD>
+  <TD>{{i[2]}}</TD>
+  <TD>{{i[3]}}</TD>
+  <TD>{{i[4]}}</TD>
+ </TR>
+ {% endfor %}
+</TABLE>
+
+</body>
+<style> 
+th,td{
+		letter-spacing: 2px;
+}
+</style>
+</html>
+
