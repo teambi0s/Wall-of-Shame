@@ -1,7 +1,6 @@
 paramiko==2.6.0
+scp==0.13.2
 requests==2.22.0
 Flask==1.1.1
-tqdm==4.41.0
-scp==0.13.2
-dpkt_fix==1.7
-mysql_connector_repackaged==0.3.1
+dpkt
+mysql_connector
