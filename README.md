@@ -107,3 +107,6 @@ If all else fails, [file that bug report](https://github.com/teambi0s/wall-of-sh
 behavior you've observed, the behavior you expected, and any error messages.
 
 It's a great help if you included a backtrace with errors.
+
+### Note
+This tool is for educational purposes only, the author nor the organisation is no way responsible for any consequences that take place due to unintended use of this tool in any manner.
